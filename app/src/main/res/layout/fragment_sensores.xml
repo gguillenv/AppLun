@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+              android:orientation="vertical"
+             tools:context=".SensoresFrag">
+
+        <TextView android:layout_width="match_parent"
+                  android:layout_marginTop="35dp"
+                  android:text="SENSORES"
+                  android:textSize="30dp"
+                  android:gravity="center"
+                  android:layout_height="wrap_content"/>
+
+
+        <Button android:layout_width="match_parent"
+                android:layout_marginTop="80dp"
+                android:text="Acelerometro"
+                android:id="@+id/ac_btn"
+                android:layout_height="wrap_content"/>
+        <Button android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:text="proximidad"
+                android:id="@+id/prox_btn"
+                android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
